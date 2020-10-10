@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShopTemplate renders correctly 1`] = `
+<Layout
+  description="Test subtitle"
+  title="Shop"
+>
+  <Sidebar />
+  <Page
+    title="SHOP FOR OUR MERCHANDISE"
+  >
+    <ShopFeed
+      edges={
+        Array [
+          Object {
+            "node": Object {
+              "fields": Object {
+                "slug": "/merch/personalized-bottle",
+              },
+              "frontmatter": Object {
+                "image": Object {
+                  "childImageSharp": Object {
+                    "fixed": Object {
+                      "height": 184,
+                      "src": "/media/customized-coke-bottle.png",
+                      "srcSet": "",
+                      "width": 200,
+                    },
+                  },
+                },
+                "order": 1,
+                "price": "20.00",
+                "title": "Personalized Bottle",
+              },
+              "html": "<p>test</p>",
+              "id": "test_1",
+            },
+          },
+          Object {
+            "node": Object {
+              "fields": Object {
+                "slug": "/merch/coke-can-sculpted-mug",
+              },
+              "frontmatter": Object {
+                "image": Object {
+                  "childImageSharp": Object {
+                    "fixed": Object {
+                      "height": 184,
+                      "src": "/media/coke_can_sculpted_mug.png",
+                      "srcSet": "",
+                      "width": 200,
+                    },
+                  },
+                },
+                "order": 2,
+                "price": "40.00",
+                "title": "Coke Can Sculpted Mug",
+              },
+              "html": "<p>test2</p>",
+              "id": "test_2",
+            },
+          },
+        ]
+      }
+    />
+  </Page>
+</Layout>
+`;

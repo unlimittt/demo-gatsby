@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Merch renders correctly 1`] = `
+<div
+  className="merch"
+>
+  <h1
+    className="merch__title"
+  >
+    Personalized Bottle
+  </h1>
+  <Image
+    Tag="div"
+    alt=""
+    durationFadeIn={500}
+    fadeIn={true}
+    fluid={
+      Object {
+        "aspectRatio": 1,
+        "sizes": "",
+        "src": "/media/customized-coke-bottle.png",
+        "srcSet": "",
+      }
+    }
+    loading="lazy"
+  />
+  <div
+    className="merch__price"
+  >
+    Price: $ 
+    20.00
+  </div>
+  <div
+    className="merch__body"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<p>test</p>",
+      }
+    }
+  />
+  <mockConstructor
+    className="snipcart-add-item  merch__buy-button"
+    data-item-id="/merch/personalized-bottle"
+    data-item-image="/media/customized-coke-bottle.png"
+    data-item-name="Personalized Bottle"
+    data-item-price="20.00"
+    data-item-url="/merch/personalized-bottle"
+    to="#"
+  >
+    BUY NOW
+  </mockConstructor>
+</div>
+`;

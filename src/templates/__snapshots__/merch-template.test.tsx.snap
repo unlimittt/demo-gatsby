@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MerchTemplate renders correctly 1`] = `
+<Layout
+  description="test"
+  title="test"
+>
+  <Sidebar />
+  <Page>
+    <Merch
+      merch={
+        Object {
+          "fields": Object {
+            "slug": "/test_0",
+            "tagSlugs": Array [
+              "/test_0",
+              "/test_1",
+            ],
+          },
+          "frontmatter": Object {
+            "date": "2016-09-01",
+            "description": "test",
+            "image": Object {
+              "childImageSharp": Object {
+                "fixed": Object {
+                  "height": 184,
+                  "src": "/media/customized-coke-bottle.png",
+                  "srcSet": "",
+                  "width": 200,
+                },
+                "fluid": Object {
+                  "aspectRatio": 1,
+                  "sizes": "",
+                  "src": "/media/customized-coke-bottle.png",
+                  "srcSet": "",
+                },
+              },
+            },
+            "tags": Array [
+              "test_0",
+              "test_1",
+            ],
+            "title": "test",
+          },
+          "html": "<p>test</p>",
+          "id": "test-123",
+        }
+      }
+    />
+  </Page>
+</Layout>
+`;

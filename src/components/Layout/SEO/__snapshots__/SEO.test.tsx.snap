@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SEO renders correctly 1`] = `
+<HelmetWrapper
+  defer={true}
+  encodeSpecialCharacters={true}
+  htmlAttributes={
+    Object {
+      "lang": "ru",
+    }
+  }
+  meta={
+    Array [
+      Object {
+        "content": "test",
+        "name": "description",
+      },
+      Object {
+        "content": "test",
+        "property": "og:title",
+      },
+      Object {
+        "content": "test",
+        "property": "og:description",
+      },
+      Object {
+        "content": "website",
+        "property": "og:type",
+      },
+      Object {
+        "content": "test",
+        "property": "og:site_name",
+      },
+      Object {
+        "content": "http://localhost/test.jpg",
+        "property": "og:image",
+      },
+      Object {
+        "content": "summary",
+        "name": "twitter:card",
+      },
+      Object {
+        "content": "#",
+        "name": "twitter:creator",
+      },
+      Object {
+        "content": "test",
+        "name": "twitter:title",
+      },
+      Object {
+        "content": "test",
+        "name": "twitter:description",
+      },
+      Object {
+        "content": "http://localhost/test.jpg",
+        "name": "twitter:image",
+      },
+    ]
+  }
+  title="test"
+  titleTemplate="%s - Test title"
+/>
+`;

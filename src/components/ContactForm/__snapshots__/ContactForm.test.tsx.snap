@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactForm renders correctly 1`] = `
+<form
+  data-netlify="true"
+  method="post"
+  name="contact"
+  netlify-honeypot="bot-field"
+>
+  <input
+    name="bot-field"
+    type="hidden"
+  />
+  <input
+    name="form-name"
+    type="hidden"
+    value="contact"
+  />
+  <p>
+    <label>
+      Your Name: 
+      <input
+        name="name"
+        type="text"
+      />
+    </label>
+  </p>
+  <p>
+    <label>
+      Your Email: 
+      <input
+        name="email"
+        type="email"
+      />
+    </label>
+  </p>
+  <p>
+    <label>
+      Message: 
+      <textarea
+        name="message"
+      />
+    </label>
+  </p>
+  <p>
+    <button
+      type="submit"
+    >
+      Send
+    </button>
+  </p>
+</form>
+`;

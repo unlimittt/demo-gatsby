@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageTemplate renders correctly 1`] = `
+<Layout
+  description="test"
+  title="test"
+>
+  <Sidebar />
+  <Page
+    title="test"
+  >
+    <div
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<p>test</p>",
+        }
+      }
+    />
+  </Page>
+</Layout>
+`;

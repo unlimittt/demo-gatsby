@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu renders correctly 1`] = `
+<nav
+  className="menu"
+>
+  <ul
+    className="menu__list"
+  >
+    <li
+      className="menu__list-item"
+      key="/#0/"
+    >
+      <mockConstructor
+        activeClassName="menu__list-item-link--active"
+        className="menu__list-item-link"
+        to="/#0/"
+      >
+        Item 0
+      </mockConstructor>
+    </li>
+    <li
+      className="menu__list-item"
+      key="/#1/"
+    >
+      <mockConstructor
+        activeClassName="menu__list-item-link--active"
+        className="menu__list-item-link"
+        to="/#1/"
+      >
+        Item 1
+      </mockConstructor>
+    </li>
+  </ul>
+</nav>
+`;

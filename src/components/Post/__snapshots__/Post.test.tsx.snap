@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post renders correctly 1`] = `
+<div
+  className="post"
+>
+  <mockConstructor
+    className="post__home-button"
+    to="/"
+  >
+    All Articles
+  </mockConstructor>
+  <div
+    className="post__content"
+  >
+    <Content
+      body="<p>test</p>"
+      title="test"
+    />
+  </div>
+  <div
+    className="post__footer"
+  >
+    <Meta
+      date="2016-09-01"
+    />
+    <Tags
+      tagSlugs={
+        Array [
+          "/test_0",
+          "/test_1",
+        ]
+      }
+      tags={
+        Array [
+          "test_0",
+          "test_1",
+        ]
+      }
+    />
+    <Author />
+  </div>
+  <div
+    className="post__comments"
+  >
+    <Comments
+      postSlug="/test"
+      postTitle="test"
+    />
+  </div>
+</div>
+`;

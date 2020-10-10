@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagTemplate renders correctly 1`] = `
+<Layout
+  description="Test subtitle"
+  title="All Posts tagged as \\"test\\" - Page 1"
+>
+  <Sidebar />
+  <Page
+    title="test"
+  >
+    <Feed
+      edges={
+        Array [
+          Object {
+            "node": Object {
+              "fields": Object {
+                "categorySlug": "/test",
+                "slug": "/test_0",
+              },
+              "frontmatter": Object {
+                "category": "test",
+                "date": "2016-09-01",
+                "description": "test_0",
+                "title": "test_0",
+              },
+              "html": "<p>test1</p>",
+              "id": "test-1",
+            },
+          },
+          Object {
+            "node": Object {
+              "fields": Object {
+                "categorySlug": "/test",
+                "slug": "/test_1",
+              },
+              "frontmatter": Object {
+                "category": "test",
+                "date": "2016-09-01",
+                "description": "test_1",
+                "title": "test_1",
+              },
+              "html": "<p>test2</p>",
+              "id": "test-2",
+            },
+          },
+        ]
+      }
+    />
+    <Pagination
+      hasNextPage={true}
+      hasPrevPage={true}
+      nextPagePath="/page/3"
+      prevPagePath="/page/1"
+    />
+  </Page>
+</Layout>
+`;

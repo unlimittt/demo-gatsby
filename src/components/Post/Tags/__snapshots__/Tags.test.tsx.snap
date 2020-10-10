@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tags renders correctly 1`] = `
+<div
+  className="tags"
+>
+  <ul
+    className="tags__list"
+  >
+    <li
+      className="tags__list-item"
+      key="test_0"
+    >
+      <mockConstructor
+        className="tags__list-item-link"
+        to="/test_0"
+      >
+        test_0
+      </mockConstructor>
+    </li>
+    <li
+      className="tags__list-item"
+      key="test_1"
+    >
+      <mockConstructor
+        className="tags__list-item-link"
+        to="/test_1"
+      >
+        test_1
+      </mockConstructor>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagsListTemplate renders correctly 1`] = `
+<Layout
+  description="Test subtitle"
+  title="Tags"
+>
+  <Sidebar />
+  <Page
+    title="Tags"
+  >
+    <ul>
+      <li
+        key="test_0"
+      >
+        <mockConstructor
+          to="/tag/test-0/"
+        >
+          test_0
+           (
+          1
+          )
+        </mockConstructor>
+      </li>
+      <li
+        key="test_1"
+      >
+        <mockConstructor
+          to="/tag/test-1/"
+        >
+          test_1
+           (
+          2
+          )
+        </mockConstructor>
+      </li>
+    </ul>
+  </Page>
+</Layout>
+`;

@@ -1,0 +1,53 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
+
+.feed {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  //justify-content: center;
+
+  &__item {
+    @include padding(0, 0.4);
+    @include margin-bottom(1.25);
+    text-align: center;
+
+    &:last-child {
+      @include margin-bottom(0.5);
+    }
+
+    &-link {
+      color: $color-base;
+
+      &:hover,
+      &:focus {
+        color: $color-base;
+      }
+
+      &-title {
+        font-size: $typographic-base-font-size;
+        text-transform: uppercase;
+        font-weight: 600;
+        @include line-height(1.5);
+        @include margin-top(0);
+        @include margin-bottom(0.5);
+      }
+    }
+
+    &-buy-button {
+      display: inline-block;
+      height: $button-height;
+      padding: 0 24px;
+      line-height: $button-height;
+      border: 1px solid $color-gray-border;
+      text-decoration: none;
+      border-radius: $button-border-radius;
+      color: $color-base;
+
+      &:hover,
+      &:focus {
+        color: $color-primary;
+      }
+    }
+  }
+}

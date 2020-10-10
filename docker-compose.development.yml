@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  web:
+    image: unlimittt/demo-gatsby:development
+    build:
+      context: ./
+      dockerfile: Dockerfile.development
+    tty: true
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - "8000:8000"

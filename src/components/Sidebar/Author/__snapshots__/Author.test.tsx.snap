@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Author renders correctly 1`] = `
+<div
+  className="author"
+>
+  <mockConstructor
+    to="/"
+  >
+    <img
+      alt="test"
+      className="author__photo"
+      height="75"
+      src="/photo.jpg"
+      width="75"
+    />
+  </mockConstructor>
+  <h2
+    className="author__title"
+  >
+    <mockConstructor
+      className="author__title-link"
+      to="/"
+    >
+      test
+    </mockConstructor>
+  </h2>
+  <p
+    className="author__subtitle"
+  >
+    test
+  </p>
+</div>
+`;

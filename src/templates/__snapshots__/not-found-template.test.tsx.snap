@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFoundTemplate renders correctly 1`] = `
+<Layout
+  description="Test subtitle"
+  title="Not Found"
+>
+  <Sidebar />
+  <Page
+    title="NOT FOUND"
+  >
+    <p>
+      You just hit a route that doesn't exist... the sadness.
+    </p>
+  </Page>
+</Layout>
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar renders correctly 1`] = `
+<div
+  className="sidebar"
+>
+  <div
+    className="sidebar__inner"
+  >
+    <Author
+      author={
+        Object {
+          "bio": "Test bio",
+          "contacts": Object {
+            "email": "#",
+            "github": "#",
+            "rss": "#",
+            "telegram": "#",
+            "twitter": "#",
+            "vkontakte": "#",
+          },
+          "name": "Test name",
+          "photo": "/test.jpg",
+        }
+      }
+      isIndex={true}
+    />
+    <Menu
+      menu={
+        Array [
+          Object {
+            "label": "Test label 1",
+            "path": "/test/1/",
+          },
+          Object {
+            "label": "Test label 2",
+            "path": "/test/2/",
+          },
+          Object {
+            "label": "Test label 3",
+            "path": "/test/3/",
+          },
+        ]
+      }
+    />
+    <Contacts
+      contacts={
+        Object {
+          "email": "#",
+          "github": "#",
+          "rss": "#",
+          "telegram": "#",
+          "twitter": "#",
+          "vkontakte": "#",
+        }
+      }
+    />
+    <Copyright
+      copyright="Test copyright"
+    />
+  </div>
+</div>
+`;
