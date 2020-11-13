@@ -24,11 +24,7 @@ module.exports = {
     {
       label: "Contact",
       path: "/pages/contacts",
-    },
-    {
-      label: "Test",
-      path: "/pages/test",
-    },
+    }
   ],
   author: {
     name: "Ivan Gaidarov",
