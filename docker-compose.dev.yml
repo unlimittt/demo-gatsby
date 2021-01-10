@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  web:
+    image: library/node:14.15
+    restart: unless-stopped
+    tty: true
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - "8000:8000"

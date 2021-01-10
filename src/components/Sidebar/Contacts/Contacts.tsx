@@ -2,7 +2,7 @@ import React from "react"
 import { getContactHref, getIcon } from "../../../utils"
 import Icon from "../../Icon"
 import styles from "./Contacts.module.scss"
-import { Dictionary } from "lodash"
+import Dictionary from "lodash/Dictionary"
 
 type Props = {
   contacts: Dictionary<string>

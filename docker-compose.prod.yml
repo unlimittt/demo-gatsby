@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  web:
+    image: unlimittt/demo-gatsby:1.0
+    container_name: demo-gatsby_web_prod
+    build:
+      context: .

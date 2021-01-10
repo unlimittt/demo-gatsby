@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-gatsby
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      demo-gatsby: web
+  template:
+    metadata:
+      labels:
+        demo-gatsby: web
+    spec:
+      containers:
+        - name: demo-gatsby-web
+          image: localhost:5000/demo-gatsby:1.0
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: demo-gatsby-entrypoint
+  namespace: default
+spec:
+  type: NodePort
+  selector:
+    demo-gatsby: web
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 30001
